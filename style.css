@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    scroll-behavior: smooth;
+}
+header {
+    height: -10px;
+    width: 100%;
+    background-color: rgb(243, 208, 213);
+    opacity: calc(0,2);
+    color: rgb(241, 104, 127);
+   position: fixed;
+    z-index: 110;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #F7CAC9;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo {
+    float: left;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.menu li{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.menu a {
+    text-decoration: none;
+    color: rgb(241, 104, 127);
+}
+.home {
+    height: 650px;
+    background-color: rgb(241, 104, 127);
+    color: white;
+    font-size: 25px;
+}
+.foto-ica img{
+    float: right;
+    border-radius: 20%;
+    margin-right: 180px;
+    margin-top: 130px;
+    margin-left: 50px;
+    box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+}
+.isi-home {
+    padding-top: 250px;
+    padding-left: 175px;
+}
+.sosmed {
+    font-size: 30px;
+    padding-top: 150px;
+    padding-left: 175px;
+}
+.sosmed i {
+    display: inline-block;
+    margin-right: 20px;
+    color: rgb(245, 149, 165);
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(241, 104, 127);
+    transition: 0.5s ease-in-out;
+}
+
+.sosmed i:hover {
+    display: inline-block;
+    margin-right: 20px;
+    color: white;
+    background-color: rgb(241, 104, 127);
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(245, 149, 165);
+    scale: 1.02;
+}
+
+.about {
+    height: 650px;
+    background-color: rgb(245, 149, 165);
+}
+.foto-about img{
+    float: left;
+    margin-top: 100px;
+    margin-left: 180px;
+    border-radius: 20%;
+    margin-bottom: 80px;
+    box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 23px 0px rgba(0,0,0,0.75);
+}
+.isi-about {
+    float: right;
+    width: 400px;
+    font-size: 25px;
+    color: white;
+    margin-top: 120px;
+    margin-right: 250px;
+}
+.riwayat-pendidikan {
+    text-align: center;
+    height: 750px;
+    background-color: rgb(241, 104, 127);
+    color: white;
+}
+.judul-riwayat {
+    padding-top: 80px;
+}
+.card {
+    position: relative;
+    width: 30%;
+    display: inline-block;  
+    margin-top: 100px;
+    height: 500px;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+.isi-riwayat {
+    padding-top: 280px;
+}
+.foto-sekolah {
+    position: absolute;
+    top: -40px;
+    left: 50px;
+}
+.foto-sekolah img {
+    border-radius: 10px;
+    transition: 1.05s;
+}
+.foto-sekolah img:hover{
+    transform: scale(1.1);
+}
+.judul-portofolio {
+    font-size: 30px;
+    padding-bottom: 50px;
+    color: white    ;
+}
+.portofolio {
+    height: 550px;
+    text-align: center;
+    padding-top: 100px;
+    background-color: rgb(245, 149, 165);
+    padding-bottom: -90px;
+}
+.foto-karya img{
+    border-radius: 10px;
+    transition: 1.6s;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.foto-karya img:hover {
+    transform: scale(1.1);
+}
+
+.hubungi-kami {
+    height: 850px;
+    background-color: rgb(241, 104, 127);
+
+}
+.judul-contact {
+    padding-top: 130px;
+    text-align: center;
+    font-family: 'menu';
+    font-size: 35px;
+    color: white;
+}
+
+.form-kontak {
+    height: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+form {
+    margin-top: 50px;
+    background: rgb(255, 254, 254);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+}
+
+.grup-form {
+    margin: 30px 50px;
+    text-align: left;
+}
+
+label {
+    padding: 90px 0px;
+    color: rgb(255, 131, 131);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: rgba(252, 129, 129, 0.507);
+    color: white;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    background-color: rgb(255, 106, 106);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(243, 64, 64);
+}
+
+.footer {
+    height: 100px;
+    padding-top: 20px;
+    background-color: rgb(252, 127, 146);
+    text-align: center;
+    font-size: 18px;
+    color: rgb(255, 220, 220);
+}
+
+#rr{
+    cursor: pointer;
+    margin-top: 20px;
+}
+.sosmed-footer i{
+    display: inline-block;
+    margin-right: 20px;
+    color: rgb(245, 149, 165);
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid rgb(241, 104, 127);
+    transition: 0.5s ease-in-out;
+}
+
+.typing {
+    display: inline-block;
+    border-right: 3px solid #000; /* Cursor effect */
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 6s steps(30) infinite, blink 1s step-end infinite;
+}
+
+/* Typing animation */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 45%;
+    }
+}
+
+/* Cursor blink animation */
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+/* Skill Section */
+.skills {
+    padding: 50px 0;
+    background-color:rgb(241, 104, 127);
+}
+
+.judul-skills {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.judul-skills h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+/* Skill Bars */
+.skill-bar {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.skill {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.skill span {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.bar {
+    width: 100%;
+    height: 12px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color: #e91e63; /* Pink color for the progress bar */
+    border-radius: 5px;
+    width: 0%; /* Initially set to 0% for animation */
+    animation: grow 2s forwards;
+}
+
+/* Percentage Label */
+.percentage {
+    position: absolute;
+    right: 0;
+    top: -5px;
+    font-size: 16px;
+    color: #e91e63; /* Match the progress color */
+}
+
+/* Skill Bar Animation */
+@keyframes grow {
+    from {
+        width: 0%;
+    }
+    to {
+        width: var(--skill-width);
+    }
+}
